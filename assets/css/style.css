@@ -1,0 +1,225 @@
+
+.container-fluid{width:100%;
+	padding-right:15px !important;
+	padding-left:15px !important;
+	margin-right:auto;
+	margin-left:auto}
+	.margin-top{
+		margin-top: 24px;
+	}
+	.custom-padding{
+		padding: 14px;
+	}
+	.custom-field{
+		margin: 4px;
+		padding: 2px;
+	}
+	.custom-field .form-control {
+  display: block !important;
+  width: 100% !important;
+  padding: 0.375rem 0.75rem !important;
+  font-size: 0.9375rem !important;
+  line-height: 1.5 !important;
+  color: #7b8a8b !important;
+  background-color: #fff !important;
+  background-clip: padding-box !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem !important;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out !important;
+}
+
+.form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.form-control:focus {
+  color: #7b8a8b !important;
+  background-color: #fff !important;
+  border-color: #597ea2 !important;
+  outline: 0 !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.25) ;
+          box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.25) !important;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #95a5a6 !important;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #95a5a6 !important;
+  opacity: 1 !important;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #95a5a6;
+  opacity: 1;
+}
+
+.form-control::placeholder {
+  color: #95a5a6;
+  opacity: 1;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: #ecf0f1;
+  opacity: 1;
+}
+
+select.form-control:not([size]):not([multiple]) {
+  height: calc(2.15625rem + 2px);
+}
+.brand-logo{
+	font-family:  cursive !important;
+}
+select.form-control:focus::-ms-value {
+  color: #7b8a8b;
+  background-color: #fff;
+}
+
+.form-control-file,
+.form-control-range {
+  display: block;
+  width: 100%;
+}
+.custom-field .invalid-input:focus{
+      color: #7b8a8b !important;
+    background-color: #fff !important;
+    border-color: red !important;
+    outline: 0 !important;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.25) !important;
+}
+
+.product-wrapper{
+  background: url('../image/productback.jpeg');
+  min-height: 380px;
+}
+.product-wrapper .product-header{
+  padding: 14px 10px;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.product-wrapper .product-showcase{
+  padding: 10px 8px;
+
+}
+.product-wrapper .product-showcase .card .card-image img{
+  max-height: 240px;
+}
+#about{
+    background: #f6f6f6;
+    margin: 0px;
+}
+#about .line {
+    border-top: 4px solid #fcac45;
+    height: 10px;
+    width: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+#about hr {
+    border-top: 4px solid rgba(252, 172, 69, 0.34);
+    width: 40px;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    left: 17%;
+}
+.imageAbout{
+    margin-left: -15px;
+    max-width: 100%;
+    max-height: auto;
+}
+.why_choose_us{
+    padding: 80px 80px 0px 0;
+}
+.sloganText{
+        width: 90%;
+        margin-top: 10px;
+    font-size: 16px;
+    margin-right: 10%;
+    float: left;
+    margin-bottom: 15px;
+}
+.textBox{
+    margin-left: 30px;
+}
+.text-orange {
+    color: #ff9320;
+}
+.title-line-4.orange-4 {
+  background-color: #ff9320; 
+}
+.title-line-4{
+    width: 100%;
+    height: 2px;
+    background-color: #161616;
+}
+nav ul a {
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #777;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+nav ul a:hover {
+    background-color: rgba(0,0,0,0);
+    /*color: #fd602c !important;*/
+    color: #ff9320 !important;
+}
+.side-nav li>a:hover {
+    background-color: rgba(0,0,0,0.0);
+}
+nav .button-collapse i {
+    color: #000000;
+    height: 56px;
+    line-height: 56px;
+}
+#service_focus{
+    margin: 0px;
+    margin-top: -19px;
+}
+.bg-image2{
+    background: url('../images/desk1.jpg') !important;
+}
+.bg-image1{
+    background: url('../image/productback.jpeg');
+}
+.parallax-effect{
+    
+
+    /* Set a specific height */
+    height: 480px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+  position: relative;
+  left: 0;
+  top: 10% !important;
+  width: 100%;
+  text-align: center;
+  
+}
+.caption span.border {
+  background-color: rgba(255, 147, 32, 0.9);
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
